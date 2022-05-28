@@ -11,6 +11,7 @@ app.use(cors(options))
 app.get('/', express.json(), (req, res)=>{
     res.json({
         status : 'Sucess',
+        numberStatus : 200,
         title : 'Requisição Finalizada',
         message : 'Requisição com Axios feita com sucesso'
     })
